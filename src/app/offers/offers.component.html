@@ -1,0 +1,115 @@
+<div class="container-flex" style="margin-top: 100px;">
+  <div class="row ">
+    <div class="col-1">
+    </div>
+    <div class="col-6 ">
+      <input type="file" class="form-control" style="height:50px;border-radius: 30px;" id="customFile" />
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="number" id="typeNumber" style="height:50px;border-radius: 15px;" class="form-control">
+        <label class="form-label" for="typeNumber"></label>
+      </div>
+    </div>
+    <div class="col" style="position: sticky;">
+      <button class="btn btn-primary" style="width:70px;height: 50px;" (click)="onPress()" type="submit">Button</button>
+    </div>
+  </div>
+
+  <br>
+  <!-- <div style="overflow-x:auto;margin-left: 60px;">
+        <table >
+            <tr>
+                <th>Color</th>
+                <th>background</th>
+                <th>Color</th>
+                <th>background</th>
+                <th>Color</th>
+                <th>background</th>
+                <th>Color</th>
+                <th>background</th>
+                <th>Color</th>
+                <th>background</th>
+            </tr>
+            <tr>
+                <td>Aluminium</td>
+                <td style="background-color:rgb(174, 158, 233);"></td>
+                <td>Asphalt</td>
+                <td style="background-color:rgb(62, 73, 44);"></td>
+                <td>Brick</td>
+                <td style="background-color:rgb(142, 240, 51);"></td>
+                <td>Carpet</td>
+                <td style="background-color:rgb(92, 98, 104);"></td>
+                <td>Granite</td>
+                <td style="background-color:rgb(18, 55, 109);"></td>
+            </tr>
+            <tr>
+                <td>Iron</td>
+                <td style="background-color:rgb(28, 56, 218);"></td>
+                <td>Laminate</td>
+                <td style="background-color:rgb(74, 165, 115);"></td>
+                <td>Steel</td>
+                <td style="background-color:rgb(190, 56, 135);"></td>
+                <td>Tile</td>
+                <td style="background-color:rgb(210, 212, 56);"></td>
+                <td>Wood</td>
+                <td style="background-color:rgb(182, 215, 235);"></td>
+            </tr>
+
+        </table> -->
+  <div class="table-responsive pd-100">
+    <table class="table" style="width:1200px;margin:auto;">
+
+      <thead>
+        <tr>
+          <th>Color</th>
+          <th>background</th>
+          <th>Color</th>
+          <th>background</th>
+          <th>Color</th>
+          <th>background</th>
+          <th>Color</th>
+          <th>background</th>
+          <th>Color</th>
+          <th>background</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Aluminium</td>
+          <td style="background-color:rgb(174, 158, 233);"></td>
+          <td>Asphalt</td>
+          <td style="background-color:rgb(62, 73, 44);"></td>
+          <td>Brick</td>
+          <td style="background-color:rgb(142, 240, 51);"></td>
+          <td>Carpet</td>
+          <td style="background-color:rgb(92, 98, 104);"></td>
+          <td>Granite</td>
+          <td style="background-color:rgb(18, 55, 109);"></td>
+        </tr>
+        <tr>
+          <td>Iron</td>
+          <td style="background-color:rgb(28, 56, 218);"></td>
+          <td>Laminate</td>
+          <td style="background-color:rgb(74, 165, 115);"></td>
+          <td>Steel</td>
+          <td style="background-color:rgb(190, 56, 135);"></td>
+          <td>Tile</td>
+          <td style="background-color:rgb(210, 212, 56);"></td>
+          <td>Wood</td>
+          <td style="background-color:rgb(182, 215, 235);"></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <div class="row justify-content-around">
+    <div class="col-10" style="margin:auto">
+      <!-- Content here -->
+
+      <canvas id="myCanvas" style="border:1px solid #000000;">
+      </canvas>
+    </div>
+  </div>
+</div>

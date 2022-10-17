@@ -1,0 +1,32 @@
+/* .content-container{
+ margin: 50px 60px;
+ }
+ :active{
+     color: rgb(238, 16, 16);
+ }
+ .container{
+margin-left: 400px; 
+margin-top: 10px;
+ }
+ ul{
+     background-color: aqua;
+     border-color: blue;
+     border-radius: 20px;
+ }
+ @media only screen and (min-width: 300px) {
+    .content-container{
+        width: 100%;
+    }
+    .container{
+        width:130%;
+    }
+
+ } */
+ /* .active{
+     color: brown;
+ } */
+
+a{
+    color: aliceblue;
+    font-size: large;
+}

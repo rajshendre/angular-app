@@ -1,0 +1,10 @@
+table, th, td {
+    border: 1px solid rgba(63, 62, 63, 0.164);
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  #myCanvas{
+    width: 100%;
+  }
